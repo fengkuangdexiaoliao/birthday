@@ -8,6 +8,6 @@ app.get('/',function(req,res){
     res.render('index.html', {});
 })
 
-app.listen(5000,function(){
+app.listen(80,function(){
     console.log('node server is running')
 })
