@@ -1,10 +1,12 @@
+const changes = require('./server/change');
+const index = require('./server/index');
 const router = [{
     url:'/index',
-    name:'index',
+    server:index,
     methods:'post'
 },{
     url:'/change',
-    name:'changes',
+    server : changes,
     methods:'post'
 }]
 
