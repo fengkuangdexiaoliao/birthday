@@ -1,10 +1,10 @@
 const router = [{
     url:'/index',
-    path:'./server/index.js',
+    name:'index',
     methods:'post'
 },{
     url:'/change',
-    path:'./server/change.js',
+    name:'changes',
     methods:'post'
 }]
 
