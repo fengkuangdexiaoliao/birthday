@@ -11,7 +11,7 @@ routerList.forEach(item=>{
     })
 })
 router.get('/',function(req,res){
-    res.render('index.html', {});
+    res.render('canvas.html', {});
 })
 
 module.exports = router;
